@@ -1,0 +1,309 @@
+/* typographie*/
+
+@font-face {
+    font-family: 'cera_stencil_problack';
+    src: url('cera-stencil-pro-black-webfont.woff2') format('woff2'),
+         url('cera-stencil-pro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aqua_grotesqueregular';
+    src: url('aqua-webfont.woff2') format('woff2'),
+         url('aqua-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*titre principal*/
+
+H1{
+    font-family:'cera_stencil_problack';
+    font-size: 90px;
+    color: white;
+    background-color: black;
+    background-size: max-content;
+    text-align: center;
+    margin-bottom: 0%;
+}  
+
+/*éléments de contact*/
+
+
+
+.Photo-de-profil{
+    width: auto;
+    height: 350px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact{
+    font-family:'aqua_grotesqueregular';
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    display:flex;
+    background-color: white;
+    border-radius: 60px ;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.picto-Telephone{
+    width: auto;
+    height: 40px;
+    margin: 10px;
+}
+
+.picto-linkedin{
+    width: auto;
+    height: 40px;
+    margin: 15px;
+}
+
+.picto-instagram{
+    width: auto;
+    height: 40px;
+    margin: 10px;
+}
+
+.picto-mail{
+    width: auto;
+    height: 40px;
+    margin: 15px;
+}
+
+.picto-permis{
+    width: auto;
+    height: 40px;
+    margin: 15px;
+} 
+
+.picto-adresse{
+    width: auto;
+    height: 40px;
+    margin: 15px;
+}
+
+
+.linkedin{
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+
+.telephone{
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+
+.instagram{
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+
+.mail{
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+
+.adresse{
+    font-family: 'Trebuchet MS';
+    color: white;
+    text-align: center;
+}
+
+.permis{
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+
+.fond{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 410px;
+    height: max;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*formation et expériences*/
+
+.formation-experience{
+    display: flex;
+}
+
+.experiences-interet {
+    max-width: 600px;
+}
+
+/*section formation*/
+
+.formation {
+    width: 45%;
+    margin: 3%;
+}
+
+.picto-Formation {
+    width: auto;
+    height: 60px;
+    float: left;
+    margin-right: 40px;
+}
+.section-titre-f {
+    width: 100%;
+    font-family: 'Trebuchet MS';
+    font-weight: bold; 
+    font-size: 25px;
+}
+
+.section-description-f {
+  width: 100%;
+  font-family: 'Trebuchet MS';
+  font-size: 20px;
+}
+
+.soustitre1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: left;
+    font-family:'aqua_grotesqueregular' ;
+    font-size: 25px;
+
+}
+
+/* section expérience */
+
+.soustitre1-e{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    text-align: end;
+    justify-content: right;
+    font-family:'aqua_grotesqueregular' ;
+    font-size: 25px;
+
+}
+
+.experiences {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin: 3%;
+}
+
+.section-titre-e {
+    width: 100%;
+    font-family: 'Trebuchet MS';
+    font-weight: bold; 
+    font-size: 25px;
+    justify-content: left;
+}
+
+
+.section-description-e {
+    width: 100%;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    justify-content: left;
+}
+
+.soustitre2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items:center;
+    justify-content: right;
+    font-family:'aqua_grotesqueregular' ;
+    font-size: 25px;
+}
+
+.picto-experiences{
+    width: auto;
+    height: 60px;
+    float: left;
+    margin-left: 40px;
+}
+
+/* Section Centre d'interet et compétences*/
+
+.loisirs{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        text-align: end;
+        justify-content: right;
+        font-family:'aqua_grotesqueregular' ;
+        font-size: 25px;
+    
+    }
+
+    .picto-loisirs{
+        width: auto;
+        height: 60px;
+        float: left;
+        margin-left: 40px;
+    }
+
+.image-loisirs{
+    width: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+.sous-titre4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items:center;
+    justify-content: left;
+    font-family:'aqua_grotesqueregular' ;
+    font-size: 25px;
+}
+
+.skill {
+    width: auto;
+    height: 60px;
+    float: left;
+    margin-right: 40px;
+}
+
+.contenu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.picto-skill{
+    width: auto;
+    height: 40px;
+    float: left;
+    margin-right: 40px;
+
+}
+
+.skill-name {
+    width: 100%;
+    font-family: 'Trebuchet MS';
+    font-weight: bold; 
+    font-size: 25px;
+    text-align: left;
+    margin-top: 20px;
+
+}
